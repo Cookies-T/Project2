@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/*
+-----For all devices, all conditions-----
+*/
+
+/* Body Style */
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+/* Article Styles */
+
+article#iceCream {
+    grid-row: 2;
+    grid-column: 1/-1;
+    font-size: 40px;
+}
+article#iceCream > h1 {
+    color: dodgerblue;
+    text-align: center;
+}
+
+article#sundaes {
+    grid-row: 4;
+    grid-column: 1/-1;
+    font-size: 40px;
+}
+
+article#sundaes > h1 {
+    color: red;
+    text-align: center;
+}
+
+article#cake {
+    grid-row: 6;
+    grid-column: 1/-1;
+    font-size: 40px;
+}
+
+article#cake > h1 {
+    color: violet;
+    text-align: center;
+}
+
+/* Div Styles */
+
+div.iceCream {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ccc;
+    float: left;
+    width: 60%;
+    grid-row: 3;
+    font-size: 20px;
+}
+
+div.iceCream img {
+    width: 100%;
+    height: auto;
+}
+
+div.iceCream:hover {border: 1px solid #FF00FF;}
+
+div.sundaes {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ccc;
+    float: left;
+    width: 60%;
+    grid-row: 5;
+    font-size: 20px;
+}
+
+div.sundaes img {
+    width: 100%;
+    height: auto;
+}
+
+div.sundaes:hover {border: 1px solid #FF00FF;}
+
+div.cake {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ccc;
+    float: left;
+    width: 60%;
+    grid-row: 7;
+    font-size: 20px;
+}
+
+div.cake img {
+    width: 100%;
+    height: auto;
+}
+
+div.cake:hover {border: 1px solid #FF00FF;}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+/*
+-----For all devices, all conditions-----
+*/
+
+/* Article Styles */
+
+article {
+    clear: both;
+    padding: 5% 10% 5% 10%;
+}
+
+article#top {
+    font-size: 24px;
+    grid-row: 2;
+    grid-column: 1/-1;
+}
+
+article#top > h1 {
+    font-size: 54px;
+    color: chocolate;
+    text-align: center;
+    font-family: "Lucida Handwriting", cursive;
+}
+
+article#middle {
+    font-size: 54px;
+    font-family: "Papyrus", fantasy;
+    text-align: center;
+    grid-row: 3;
+    grid-column: 1/-1;
+}
+
+article#middle a:link {text-decoration: none;}
+
+article#middle a:hover, a:active {color: deeppink;}
+
+article#middle a:visited {color: purple;}
+
+article#middle img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    color: transparent;
+}
+
+article#bottom {
+    font-size: 24px;
+    grid-row: 4;
+    grid-column: 1/-1;    
+}
+
+article#bottom > article#contactInfo {
+    text-align: center;
+}
+
+article#bottom img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
