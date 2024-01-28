@@ -74,7 +74,7 @@ nav.horizontalNavigation a {
 }
 
 nav.horizontalNavigation a:hover, nav.horizontal a:active {
-    background-color: crimson;
+    background-color: hotpink;
     color: aqua;
 }
 
